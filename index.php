@@ -313,7 +313,6 @@
                 <!-- Logo -->
                 <div class="flex flex-shrink-0 items-center">
                     <a href="https://www.testingxperts.com/" class="flex items-center group">
-                        <img class="h-10 w-auto transition-transform duration-300 group-hover:scale-105" src="https://via.placeholder.com/180x70/1e40af/ffffff?text=TestingXperts" alt="TestingXperts">
                         <span class="ml-2 text-xl font-bold text-brand-blue dark:text-blue-400 hidden md:inline">TestingXperts</span>
                     </a>
                 </div>
@@ -534,14 +533,14 @@
                                         </svg>
                                     </div>
                                 </th>
-                                <th class="px-6 py-4 text-center text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wider">
-                                    <div class="flex items-center justify-center gap-1">
-                                        Name
-                                        <svg class="w-3 h-3 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l4-4 4 4m0 6l-4 4-4-4"/>
-                                        </svg>
-                                    </div>
-                                </th>
+                               <th class="px-6 py-4 text-left text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wider">
+    <div class="flex items-center gap-1">
+        Name
+        <svg class="w-3 h-3 text-gray-400 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l4-4 4 4m0 6l-4 4-4-4"/>
+        </svg>
+    </div>
+</th>
                                 <th class="px-6 py-4 text-center text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wider">
                                     <div class="flex items-center justify-center gap-1">
                                         Address
