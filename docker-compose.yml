@@ -26,7 +26,7 @@ services:
       - ./employees.sql:/docker-entrypoint-initdb.d/employees.sql
       - ./script.sql:/docker-entrypoint-initdb.d/script.sql
     networks:
-      - app_network
+      - app_network2
     restart: unless-stopped
     healthcheck:
       test: ["CMD", "mysqladmin", "ping", "-u", "root", "-pTesting"]
