@@ -4,7 +4,7 @@ pipeline {
 
     environment {
         DOCKER_REGISTRY = 'ayushkr08'
-        APP_IMAGE = 'my_php_app'
+        APP_IMAGE = 'my_php_appp'
         GIT_BRANCH = 'main'
         GIT_REPO_URL = 'https://github.com/Ayushkr093/my-php-project.git' 
     }
