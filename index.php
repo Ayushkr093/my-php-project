@@ -572,20 +572,20 @@
                                         </span>
                                     </div>
                                 </td>
-                                <td class="px-6 py-4 whitespace-nowrap text-center">
-                                    <div class="flex items-center justify-center">
-                                        <div class="flex items-center gap-3">
-                                            <div class="w-10 h-10 bg-gradient-to-r from-blue-400 to-purple-500 rounded-full flex items-center justify-center text-white font-semibold text-sm">
-                                                <?php echo strtoupper(substr(htmlspecialchars($row['name']), 0, 2)); ?>
-                                            </div>
-                                            <div>
-                                                <div class="text-sm font-medium text-gray-900 dark:text-white">
-                                                    <?php echo htmlspecialchars($row['name']); ?>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </td>
+                              <td class="px-6 py-4 whitespace-nowrap">
+    <div class="flex items-center">
+        <div class="flex items-center gap-3">
+            <div class="w-10 h-10 bg-gradient-to-r from-blue-400 to-purple-500 rounded-full flex items-center justify-center text-white font-semibold text-sm">
+                <?php echo strtoupper(substr(htmlspecialchars($row['name']), 0, 2); ?>
+            </div>
+            <div class="text-left">
+                <div class="text-sm font-medium text-gray-900 dark:text-white">
+                    <?php echo htmlspecialchars($row['name']); ?>
+                </div>
+            </div>
+        </div>
+    </div>
+</td>
                                 <td class="px-6 py-4 text-center">
                                     <div class="text-sm text-gray-600 dark:text-gray-300 max-w-xs truncate">
                                         <?php echo htmlspecialchars($row['address']); ?>
