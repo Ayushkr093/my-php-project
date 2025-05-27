@@ -420,7 +420,7 @@
                     </a>
 
                     <!-- Sign Up button -->
-                    <a href="#signup"
+                    <a href="signup.php"
                         class="hidden md:inline-flex items-center px-6 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-gradient-to-r from-brand-blue to-brand-dark dark:from-blue-600 dark:to-blue-800 hover:from-brand-dark hover:to-brand-blue dark:hover:from-blue-700 dark:hover:to-blue-600 shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-0.5">
                         <i class="fas fa-user-plus mr-2"></i> Sign Up
                     </a>
