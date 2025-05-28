@@ -545,7 +545,7 @@
 
                 <?php
             // Attempt select query execution
-            $sql = "SELECT * FROM employees ORDER BY id DESC";
+            $sql = "SELECT * FROM employees ORDER BY id";
             if($result = mysqli_query($link, $sql)){
                 if(mysqli_num_rows($result) > 0){
             ?>
